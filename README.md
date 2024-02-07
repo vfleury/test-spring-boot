@@ -27,7 +27,7 @@ Vous devez créer 2 endpoints dans l'API:
 Le projet contient déjà les dépendances Maven requises et la configuration nécessaire pour H2.  
 Vous avez aussi, optionnellement, la possibilité d'utiliser les librairies Lombok et MapStruct si vous le désirez.
 
-- Java 11
+- Java 17
 - Maven
 - Spring Boot
 - Spring Data JPA
