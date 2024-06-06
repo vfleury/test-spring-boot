@@ -24,11 +24,11 @@ Vous devez créer 2 endpoints dans l'API:
 
 ## Outils à utiliser
 
-Le projet contient déjà les dépendances Maven requises et la configuration nécessaire pour H2.  
+Le projet contient déjà les dépendances Gradle requises et la configuration nécessaire pour H2.  
 Vous avez aussi, optionnellement, la possibilité d'utiliser les librairies Lombok et MapStruct si vous le désirez.
 
-- Java 17
-- Maven
+- Java 21
+- Gradle
 - Spring Boot
 - Spring Data JPA
 - Base de donnée en mémoire H2
@@ -137,4 +137,4 @@ Celle-ci se retrouve dans le dossier **postman** du projet.
 Une fois terminé, veuillez créer un nouveau dépot sur GitHub et l'envoyer par courriel.
 Merci de ne pas faire un fork du dépôt de code existant.
 
-Bonne chance!
+Bonne chance !
