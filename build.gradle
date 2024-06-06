@@ -25,12 +25,15 @@ ext {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	runtimeOnly 'com.h2database:h2'
 	implementation "org.mapstruct:mapstruct:${versionMapstruct}"
 	annotationProcessor "org.mapstruct:mapstruct-processor:${versionMapstruct}"
 	annotationProcessor "org.projectlombok:lombok-mapstruct-binding:${versionLombokMapstructBinding}"
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
 compileJava {
