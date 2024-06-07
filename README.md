@@ -4,7 +4,7 @@
 
 Le but de ce test est de créer un API Rest avec Java et Spring Boot pour ajouter et obtenir les détails d'un film.
 
-Vous devez créer 2 endpoints dans l'API:
+Vous devez créer deux endpoints dans l'API :
 
 - Un GET pour obtenir un film par ID dans la base de données en mémoire (H2).
 - Un POST pour ajouter un film dans la base de données en mémoire (H2).
@@ -25,13 +25,13 @@ Vous devez créer 2 endpoints dans l'API:
 ## Outils à utiliser
 
 Le projet contient déjà les dépendances Gradle requises et la configuration nécessaire pour H2.  
-Vous avez aussi, optionnellement, la possibilité d'utiliser les librairies Lombok et MapStruct si vous le désirez.
+Vous avez aussi, optionnellement, la possibilité d'utiliser les librairies Lombok et Mapstruct si vous le désirez.
 
 - Java 21
 - Gradle
 - Spring Boot
 - Spring Data JPA
-- Base de donnée en mémoire H2
+- Base de données en mémoire H2
 - Lombok (Optionnel)
 - Mapstruct (Optionnel)
 - JUnit (optionnel)
@@ -60,9 +60,9 @@ Vous avez aussi, optionnellement, la possibilité d'utiliser les librairies Lomb
 
 #### GET /api/film/{id}
 
-- Requête: ID dans l'URI
-- Réponse: Objet Film (Voir modèle)
-- Status: 200 OK
+- Requête : ID dans l'URI
+- Réponse : Objet Film (Voir modèle)
+- Statut : 200 OK
 
 ```
 http://localhost:8080/api/film/1
@@ -87,9 +87,9 @@ http://localhost:8080/api/film/1
 
 #### POST /api/film
 
-- Requête: Objet Film dans le body
-- Réponse: Objet Film crée
-- Status: 201 CREATED
+- Requête : Objet Film dans le body
+- Réponse : Objet Film crée
+- Statut : 201 CREATED
 
 ```
 '{
