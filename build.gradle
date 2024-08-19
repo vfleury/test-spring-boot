@@ -19,7 +19,7 @@ repositories {
 }
 
 ext {
-    versionMapstruct = '1.5.5.Final'
+    versionMapstruct = '1.6.0'
     versionLombokMapstructBinding = '0.2.0'
 }
 
